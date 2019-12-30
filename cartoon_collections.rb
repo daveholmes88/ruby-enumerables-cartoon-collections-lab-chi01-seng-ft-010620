@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(a)
   n = a.map { |a| a.length}
-  n.any? { |n| n < 4}
+  n.any? { |n| n > 4}
 end
 
 def find_the_cheese(a)

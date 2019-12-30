@@ -3,6 +3,7 @@ def roll_call_dwarves(a)
   while i < a.length
     a.each { |a|
       puts "#{i+1}.#{a}" }
+    i += 1
   end
 end
 

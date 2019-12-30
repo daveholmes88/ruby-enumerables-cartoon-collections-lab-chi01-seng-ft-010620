@@ -13,7 +13,8 @@ def summon_captain_planet(a)
 end
 
 def long_planeteer_calls(a)
-
+  n = a.map { |a| a.length}
+  n.map { |n| n < 4}
 end
 
 def find_the_cheese(a)

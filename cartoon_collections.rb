@@ -3,7 +3,7 @@ def roll_call_dwarves(a)
   while i < a.length
     a.each { |a|
       puts "#{i+1}.#{a}" }
-  end 
+  end
 end
 
 def summon_captain_planet(a)

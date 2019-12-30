@@ -1,9 +1,9 @@
 def roll_call_dwarves(a)
   i = 0
   while i < a.length
-  a.each do |a|
-    puts "#{i+1}.#{a}"
-  end
+    a.each { |a|
+      puts "#{i+1}.#{a}" }
+  end 
 end
 
 def summon_captain_planet(a)

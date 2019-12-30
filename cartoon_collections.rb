@@ -8,7 +8,7 @@ def roll_call_dwarves(a)
 end
 
 def summon_captain_planet(a)
-  a1 = a.map { |a| a.capitalize} 
+  a1 = a.map { |a| a.capitalize}
   a1.map { |a1| "#{a1}!"}
 end
 
